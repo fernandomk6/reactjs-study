@@ -1,0 +1,37 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.todo-list {
+    width: 700px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.list {
+    background-color: red;
+    padding: 20px 0;
+}
+
+.list li{
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-actions {
+    display: flex;
+}
+
+.list-actions li {
+    padding: 0 5px;
+}
